@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    flex: 0 0 auto;
+    background-color: #1F2937;
+}
+
+.signup-block {
+    width: 100vw;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+}
+
+.infocard-block {
+    width: 100vw;
+    flex: 1 1 auto;
+    background-color: #FFFFFF;
+}
+
+.quote-block {
+    width: 100vw;
+    flex: 1 1 auto;
+    background-color: #E5E7EB;
+}
+
+.ad-block {
+    width: 100vw;
+    flex: 1 1 auto;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    width: 100vw;
+    height: 100px;
+    flex: 0 0 auto;
+    background-color: #1F2937;
+}
