@@ -2,6 +2,8 @@ body {
     height: 100vh;
     margin: 0px;
 
+    font-family: sans-serif;
+
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -11,8 +13,33 @@ body {
 .header {
     width: 100vw;
     height: 100px;
+    box-sizing: border-box;
+    padding: 0px 0px;
     flex: 0 0 auto;
     background-color: #1F2937;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    justify-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+#header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .signup-block {
