@@ -12,9 +12,8 @@ body {
 
 .header {
     width: 100vw;
-    height: 100px;
     box-sizing: border-box;
-    padding: 0px 0px;
+    padding: 0px calc((100vw - 100vh)/2);
     flex: 0 0 auto;
     background-color: #1F2937;
 }
@@ -28,7 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 18px;
-    justify-items: center;
+    align-items: center;
 }
 
 .header a {
@@ -44,24 +43,32 @@ body {
 
 .signup-block {
     width: 100vw;
+    box-sizing: border-box;
+    padding: 0px calc((100vw - 100vh)/2);
     flex: 1 1 auto;
     background-color: #1F2937;
 }
 
 .infocard-block {
     width: 100vw;
+    box-sizing: border-box;
+    padding: 0px calc((100vw - 100vh)/2);
     flex: 1 1 auto;
     background-color: #FFFFFF;
 }
 
 .quote-block {
     width: 100vw;
+    box-sizing: border-box;
+    padding: 0px calc((100vw - 100vh)/2);
     flex: 1 1 auto;
     background-color: #E5E7EB;
 }
 
 .ad-block {
     width: 100vw;
+    box-sizing: border-box;
+    padding: 0px calc((100vw - 100vh)/2);
     flex: 1 1 auto;
     background-color: #FFFFFF;
 }
@@ -69,6 +76,8 @@ body {
 .footer {
     width: 100vw;
     height: 100px;
+    box-sizing: border-box;
+    padding: 0px calc((100vw - 100vh)/2);
     flex: 0 0 auto;
     background-color: #1F2937;
 }
