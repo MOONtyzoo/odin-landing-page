@@ -14,11 +14,15 @@ body {
 .header, .signup-block, .infocards-block, .quote-block, .ad-block, .footer {
     width: 100%;
     box-sizing: border-box;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
 }
 
 .header {
     flex: 0 0 auto;
     background-color: #1F2937;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .signup-block {
