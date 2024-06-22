@@ -16,13 +16,42 @@ body {
     box-sizing: border-box;
     padding-left: 12.5%;
     padding-right: 12.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
+    height: 70px;
     flex: 0 0 auto;
     background-color: #1F2937;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+#header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .signup-block {
@@ -46,30 +75,11 @@ body {
 }
 
 .footer {
-    height: 100px;
+    height: 70px;
     flex: 0 0 auto;
     background-color: #1F2937;
 }
 
-.header ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    font-size: 18px;
-
-    display: flex;
-    justify-content: space-between;
-    gap: 18px;
-    align-items: center;
-}
-
-.header a {
-    text-decoration: none;
-    color: #F9FAF8
-}
-
-#header-logo {
-    margin-right: auto;
-    font-size: 24px;
-    font-weight: 900;
+.footer p {
+    color: #F9FAF8;
 }
