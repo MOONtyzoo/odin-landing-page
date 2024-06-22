@@ -11,9 +11,38 @@ body {
     align-items: center;
 }
 
-.header {
+.header, .signup-block, .infocards-block, .quote-block, .ad-block, .footer {
     width: 100%;
     box-sizing: border-box;
+}
+
+.header {
+    flex: 0 0 auto;
+    background-color: #1F2937;
+}
+
+.signup-block {
+    flex: 1 0 auto;
+    background-color: #1F2937;
+}
+
+.infocards-block {
+    flex: 1 0 auto;
+    background-color: #FFFFFF;
+}
+
+.quote-block {
+    flex: 1 0 auto;
+    background-color: #E5E7EB;
+}
+
+.ad-block {
+    flex: 1 0 auto;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    height: 100px;
     flex: 0 0 auto;
     background-color: #1F2937;
 }
@@ -39,40 +68,4 @@ body {
     margin-right: auto;
     font-size: 24px;
     font-weight: bolder;
-}
-
-.signup-block {
-    width: 100%;
-    box-sizing: border-box;
-    flex: 1 1 auto;
-    background-color: #1F2937;
-}
-
-.infocard-block {
-    width: 100%;
-    box-sizing: border-box;
-    flex: 1 1 auto;
-    background-color: #FFFFFF;
-}
-
-.quote-block {
-    width: 100%;
-    box-sizing: border-box;
-    flex: 1 1 auto;
-    background-color: #E5E7EB;
-}
-
-.ad-block {
-    width: 100%;
-    box-sizing: border-box;
-    flex: 1 1 auto;
-    background-color: #FFFFFF;
-}
-
-.footer {
-    width: 100%;
-    height: 100px;
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    background-color: #1F2937;
 }
