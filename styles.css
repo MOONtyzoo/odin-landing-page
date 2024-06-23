@@ -55,20 +55,27 @@ body {
 }
 
 .signup-block {
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px; 
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 15px;
 }
 
 .signup-block div {
     flex: 1 0 100px;
 }
 
+#hero-text-section {
+    align-self: start;
+}
+
 .signup-block h1 {
+    margin: 0px;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
