@@ -57,6 +57,43 @@ body {
 .signup-block {
     flex: 1 0 auto;
     background-color: #1F2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.signup-block div {
+    flex: 1 0 100px;
+}
+
+.signup-block h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.signup-block p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-block button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 7px;
+    padding: 0.4em 1.75em;
+    text-align: center;
+}
+
+.signup-block img {
+    width: 100%;
+    height: auto;
+    background-color: grey;
 }
 
 .infocards-block {
