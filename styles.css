@@ -57,8 +57,8 @@ body {
 .signup-block {
     flex: 0 0 auto;
     background-color: #1F2937;
-    padding-top: 50px;
-    padding-bottom: 50px; 
+    padding-top: 75px;
+    padding-bottom: 75px; 
 
     display: flex;
     justify-content: space-between;
@@ -135,6 +135,45 @@ body {
 .ad-block {
     flex: 1 0 auto;
     background-color: #FFFFFF;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#call-to-action {
+    width: 100%;
+    background-color: #3882F6;
+    padding: 2.5em 12.5%;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad-block p {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.ad-block p+p {
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ad-block button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 0.4em 1.75em;
+    text-align: center;
 }
 
 .footer {
