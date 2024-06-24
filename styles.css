@@ -109,8 +109,27 @@ body {
 }
 
 .quote-block {
-    flex: 1 0 auto;
     background-color: #E5E7EB;
+}
+
+.quote-block div {
+    padding: 2.5em 12.5%;
+}
+
+.quote-block p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.quote-block .quote-attribution {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+    margin: 0px;
 }
 
 .ad-block {
