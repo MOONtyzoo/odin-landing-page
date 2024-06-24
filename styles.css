@@ -11,7 +11,7 @@ body {
     align-items: center;
 }
 
-.header, .signup-block, .infocards-block, .quote-block, .ad-block, .footer {
+.header, .signup-block, .infocards-block, .quote-block, .action-block, .footer {
     width: 100%;
     box-sizing: border-box;
     padding-left: 12.5%;
@@ -168,7 +168,7 @@ body {
     margin: 0px;
 }
 
-.ad-block {
+.action-block {
     background-color: #FFFFFF;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -185,20 +185,20 @@ body {
     align-items: center;
 }
 
-.ad-block p {
+.action-block p {
     color:#F9FAF8;
     font-size: 24px;
     font-weight: 500;
     margin: 0px;
 }
 
-.ad-block p+p {
+.action-block p+p {
     color:#F9FAF8;
     font-size: 18px;
     font-weight: 300;
 }
 
-.ad-block button {
+.action-block button {
     font-size: 18px;
     font-weight: 700;
     color: #F9FAF8;
